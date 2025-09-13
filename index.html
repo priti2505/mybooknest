@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Your Stay</title>
+   <!-- 👇 Open Graph Meta Tags -->
+  <meta property="og:title" content="My Portfolio Website" />
+  <meta property="og:description" content="A showcase of my web development projects, including full-stack applications and design work." />
+  <meta property="og:image" content="https://example.com/preview-image.jpg" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:type" content="website" />
+    <link rel="icon" t href="hotel-logo.jpg" type="image/png">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <script src="bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+
+           <!---- <a class="navbar-brand fw-bold" href="#">BookNest 🏠</a>-->
+            <a class="navbar-brand fw-bold" href="#"><img src="https://api.logo.com/api/v2/images?design=lg_Ht5H9bq6GFkaPKib8d&u=1747124662529&width=600&height=600&margins=200&fit=contain&format=webp&quality=60&tightBounds=true" alt="img"></a>
+
+
+            <!-- toggler menu icon -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav items justify-content-end custom-nav -->
+            <div class="collapse navbar-collapse justify-content-end custom-nav " id="navbarNav">
+                <ul class="navbar-nav text-end">
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-house"></i>HOME</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#rooms"><i class="fa-solid fa-bed"></i>ROOMS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#booking"><i
+                                class="fa-solid fa-credit-card"></i>BOOKING</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#social"><i
+                                class="fa-solid fa-square-phone"></i>CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html"><i
+                                class="fa-solid fa-user-plus"></i>LOGIN</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#LOGIN">Welcome to my hotel, your comfort our goal!!</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- carousel image slide -->
+
+
+    <section class="contained">
+
+        <div id="carouselimageslide" class="carousel-slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="3000" data-bs-pause="false">
+            <div class="carousel-inner">
+
+
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/5774037/pexels-photo-5774037.jpeg"
+                        alt="First slide">
+                    <div class="carousel-caption">
+                        <h1 class="text-white">welcome to BookNest 🏠</h1>
+                        <a href="#booking" class="btn btn-warning btn-lg mt-3">Book Now</a>
+                    </div>
+
+                </div>
+
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/3688261/pexels-photo-3688261.jpeg"
+                        alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1 class="text-white">Luxury Rooms</h1>
+                        <a href="#booking" class="btn btn-warning btn-lg mt-3">Book Now</a>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg"
+                        alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1 class="text-white">Cozy & Comfortable</h1>
+                        <a href="#booking" class="btn btn-warning btn-lg mt-3">Book Now</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="why-choose">
+        <h2>Why Choose Us..?</h2>
+        <p>we are can available all types of rooms and best sevices</p>
+    </section>
+
+
+    <!--SEVICES DESCRIPTION-->
+    <!--box 1-->
+    <div class="container-1">
+        <div class="box">
+            <i class="fa-solid fa-bell-concierge"></i>
+            <h3>Our premiun sevices</h3>
+            <p>we are comiited to providing yo with the best hospitality experience.
+                From comfertable rooms to luxurious amenities , everything is design, to make your stay unforgotable .
+            </p>
+        </div>
+        <!--box 2-->
+        <div class="box">
+            <i class="fa-regular fa-house"></i>
+            <h3>24*7 Room Servises</h3>
+            <p>
+            <ol>
+                Rooms Available 24/7 <br>
+                Book Anytime, Anywhere <br>
+                Your Comfort, Our Priority <br>
+                Stay Open All Day, Every Day<br>
+                24x7 Instant Room Booking
+            </ol>
+            </p>
+
+        </div>
+        <!---box 3-->
+        <div class="box">
+            <i class="fa-solid fa-wifi"></i>
+            <h3>free Wi-Fi</h3>
+            <p>Unlimited high-speed internet in every corner of the hotel</p>
+        </div>
+        <!-- <div class="box">
+            <i class="fa-solid fa-tags"></i>
+            <h3>Complimentaory Breakfast</h3>
+            <p>Healthy and Delisious breakfast with you stay</p>
+        </div> -d->
+    </div>
+
+
+
+    <!--rooms section-->
+        <div class="container mt-4 card-container" id="rooms">
+            <div class="card">
+                <img src="https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2xlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="room" class="card-img-top" alt="Delux rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Single Room</h5>
+                    <p class="card-text">$ 9,999 per night</p>
+                    <a href="#booking" class="btn btn-warning">book</a>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/29252367/pexels-photo-29252367.jpeg" alt="room"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Double Room</h5>
+                    <p class="card-text">$10,000 per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg" alt="room"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Delux Room</h5>
+                    <p class="card-text">$12,000per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+        <div class="container mt-4 card-container">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg" alt="room"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Family Rooms</h5>
+                    <p class="card-text">$10,000 per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+
+           
+            <div class="card">
+
+                <img src="https://images.pexels.com/photos/31488428/pexels-photo-31488428.jpeg" alt="room"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title">king Suites</h5>
+                    <p class="card-text"> $11,000per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+
+           
+            <div class="card">
+
+                <img src="https://images.pexels.com/photos/18285947/pexels-photo-18285947.jpeg" alt="room"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Suite Rooms</h5>
+                    <p class="card-text">$15,000 per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+
+        </div>
+       
+        <div class="container mt-4 card-container">
+            <div class="card">
+
+                <img src="https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg" alt="room"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Twin Room</h5>
+                    <p class="card-text">$21,000per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/31488369/pexels-photo-31488369.jpeg" alt="presedential"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Presidential Room</h5>
+                    <p class="card-text">$25,000 per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/7535039/pexels-photo-7535039.jpeg" alt="romm"
+                    class=" card-img-top" alt="Suite Rooms">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> Executive</h5>
+                    <p class="card-text">$30,000 per night</p>
+                    <a href="#booking" class="btn btn-warning">Book</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- booking form section
+     -->
+
+        <section id="booking" class="booking-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Book your stay</h2>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-lable">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-lable">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="checkin" class="form-lable">check-in-date</label>
+                        <input type="date" id="checkin" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="checkout" class="form-lable">check-out-date</label>
+                        <input type="date" id="checkout" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="guest" class="form-lable">Guest</label>
+                        <input type="number" id="guest" class="form-control" min="1" value="1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="rooms" class="form-lable">Room type</label>
+                        <select id="rooms" class="form-select">
+                            <option selected>choose...</option>
+                            <option>Delux Room</option>
+                            <option>Family Room</option>
+                            <option> Luxury Room</option>
+                            <option> Suiet Room</option>
+                            <option> Guest Room</option>
+                            <option>Twin Bed Room</option>
+                            <option> King Suiet</option>
+                            <option>VIP Room</option>
+                        </select>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-warning px-5">Submit Booking</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--demo payment-->
+        <section id="payment" class="payment-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Choose Payment Method</h2>
+        <form class="row g-3 text-center">
+            
+            <div class="col-md-4">
+                <label class="form-check-label">
+                    <input type="radio" name="payment" class="form-check-input"> 
+                    💳 Credit / Debit Card
+                </label>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-check-label">
+                    <input type="radio" name="payment" class="form-check-input"> 
+                    📱 UPI (Google Pay / PhonePe / Paytm)
+                </label>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-check-label">
+                    <input type="radio" name="payment" class="form-check-input"> 
+                    🏦 Net Banking
+                </label>
+            </div>
+
+            <div class="col-12 text-center mt-4">
+                <button type="button" class="btn btn-success px-5">
+                    Proceed to Pay
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+<!--end demo payment-->
+
+
+
+
+
+
+
+        <!--gift section-->
+        <div class="gift-voucher">
+            <h2>🎁 Special Gift Voucher</h2>
+            <p>Get 20% OFF on your next purchase! Limited time offer.</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="contact-joinus">
+            <div class="joinus-text">
+                Join Us
+            </div>
+            <div class="social" id="social">
+
+                <a href="#" class="icon-circle"><i class="fa-brands fa-square-facebook" target="_blank"></i></a>
+                <a href="https://www.instagram.com/k_patil_2505" class="icon-circle" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://t.me/komalpatil2505" class="icon-circle" target="_blank"><i
+                        class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-about">
+                    
+                    <img src="https://api.logo.com/api/v2/images?design=lg_Ht5H9bq6GFkaPKib8d&u=1747124662529&width=600&height=600&margins=200&fit=contain&format=webp&quality=60&tightBounds=true" alt="img">
+                   <h3> BookNest 🏠</h3>
+                   
+                    <p>Bookyourstay@gmail.com</p>
+                    <p>~Raver dist-jalgoan 425508</p>
+                    <p>© 2025 BookNest 🏠.|| All rights reserved</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
